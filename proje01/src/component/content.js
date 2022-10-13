@@ -10,7 +10,7 @@ const Content = (items) => {
 
         <div className="content">
             <div className='content2'> <img src={src.large} alt="img" />
-                <h1>{photographer}</h1>
+               <div className='alt'><h1>{photographer}</h1></div> 
             </div>
 
 

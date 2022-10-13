@@ -1,15 +1,22 @@
 .content {
     background-color: rosybrown;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    padding: 2rem;
+    display:inline-flex;
+ 
+
+
 
 
 }
 
 .content2 {
     width: 360px;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    flex-wrap: wrap;
+
+
 }
 
 
@@ -29,4 +36,15 @@
 
 
 
-.content h1 {}
+.content h1 {
+    font-size: large;
+    text-align: center;
+    margin-top: 20px;
+    color: red;
+}
+
+.alt {
+    /* border: 2px solid red; */
+    width: 300px;
+    background-color: aqua;
+}
