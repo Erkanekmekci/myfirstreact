@@ -1,31 +1,32 @@
 .content {
-    background-color: rosybrown;
-    width: 100%;
-    display:inline-flex;
- 
-
-
+   
+    width: 300px;
+    height: 350px;
+    margin-top: 5rem;
+   
+    
+    
 
 
 }
 
-.content2 {
-    width: 360px;
+.container {
+
     display: flex;
-    justify-content: center;
-    padding: 2rem;
     flex-wrap: wrap;
-
-
+    border: 2px solid red;
+    background-color: burlywood;
 }
+
+
 
 
 .content img {
-    width: 300px;
-    height: 350px;
+    width: 200px;
+    height: 250px;
     margin: 0.5rem;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-
+margin-left: 2.5rem;
 
 }
 
@@ -42,9 +43,10 @@
     margin-top: 20px;
     color: red;
 }
-
-.alt {
-    /* border: 2px solid red; */
-    width: 300px;
-    background-color: aqua;
+.content :hover h1{
+    color: blue;
+    
+    -webkit-transform: scale(1.15);
+    
 }
+

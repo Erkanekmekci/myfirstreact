@@ -1,8 +1,15 @@
 .header h1 {
     color:red;
     background-color: aqua;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 1px;
+    margin-bottom: 0;
     width: 100%;
+
  
+} 
+.header{
+   
+    height: 3rem;
+   
+   
 }

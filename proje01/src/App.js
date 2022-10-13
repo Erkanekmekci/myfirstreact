@@ -12,7 +12,10 @@ import Data from './data.js';
 
 function App() {
   return (
-    <div>
+
+
+    
+    <div className="container">
       <Header />
       {Data.map((item) => {
         const { photographer,src}=item;
